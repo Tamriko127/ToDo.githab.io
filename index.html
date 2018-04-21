@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"/>
+	<link rel="stylesheet" href="css/main.css"/>
+	<title>ToDo приложение</title>
+</head>
+<body>
+      
+      <!-----ToDo list--->
+      
+      
+      
+              <div class="container">
+                 
+                 
+                 <div id="notifyHolder" class="notify-holder"></div>
+                 
+                  <div class="display-4 mb-2">ToDo приложение</div>
+                   <div class="h4" mb-5>Список задач на сегодня</div>
+
+                 
+        
+             <!---card---->
+   
+             <div class="card">
+
+                 <ul id="listOfTasks" class="list-group list-group-flush">
+                 
+                 
+                 <li id="emptyList" class="list-group-item empty-list">
+                     
+                     <div class="empty-list_icon">
+                     
+                     <i class="fab fa-pagelines"></i>
+                      
+                       </div>
+                       
+                       <div class="empty-list_title">Список дел пуст</div>
+                 </li>
+    
+              </ul>
+
+      <!---///card---->
+
+       </div>
+    </div>
+    
+    <!-----//ToDo list--->
+    
+    <!---------form------------>
+          
+          <div class="form-bg">
+           
+           
+           <div class="card bg-light">
+           <div class="card-header">Добавить новую задачу</div>
+           <div class="card-body">
+            <form id="form-new-task">
+            
+          <div class="form-group">
+                       
+            <input type="text" class="form-control" id="addNewTask" 
+            placeholder="Текст задачи" required>
+            <small id="emailHelp" class="form-text text-muted">
+            Что делаем,сколько времени тратим, какой результат получаем</small>
+          </div>
+          
+                   
+          <button type="submit" class="btn btn-primary btn-lg active">Добавить</button>
+        </form>
+       </div> 
+    </div>
+
+</div>
+    <!---------//form------------>
+    
+     
+  
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
